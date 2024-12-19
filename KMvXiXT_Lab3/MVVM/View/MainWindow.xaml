@@ -1,0 +1,175 @@
+﻿<Window x:Class="KMvXiXT_Lab3.MVVM.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:KMvXiXT_Lab3"
+        xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:viewModel="clr-namespace:KMvXiXT_Lab3.MVVM.ViewModel"
+        xmlns:wpf="clr-namespace:LiveChartsCore.SkiaSharpView.WPF;assembly=LiveChartsCore.SkiaSharpView.WPF"
+
+        TextElement.Foreground="{DynamicResource MaterialDesign.Brush.Primary.Light.Foreground}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="Лаб3_Богданов_Баймухаметова_Малюшенко" Height="700" Width="900">
+    
+    <Window.Resources>
+        <!-- Стили для Material Design -->
+        <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatLightButton}" />
+        <Style TargetType="TextBox" BasedOn="{StaticResource MaterialDesignFloatingHintTextBox}" />
+        <Style TargetType="Label" BasedOn="{StaticResource MaterialDesignLabel}"/>
+        <Style TargetType="TextBlock" 
+               BasedOn="{StaticResource MaterialDesignBody2TextBlock}">
+            <Setter Property="Validation.ErrorTemplate">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <DockPanel>
+                            <TextBlock Foreground="Red" Margin="5" Text="{Binding [0].ErrorContent}" DockPanel.Dock="Bottom"/>
+                            <AdornedElementPlaceholder/>
+                        </DockPanel>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="True">
+                    <Setter Property="ToolTip" Value="{Binding (Validation.Errors)[0].ErrorContent, RelativeSource={RelativeSource Self}}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="Menu" BasedOn="{StaticResource MaterialDesignMenu}"/>
+        <Style TargetType="MenuItem" BasedOn="{StaticResource MaterialDesignMenuItem}"/>
+    </Window.Resources>
+
+    <Window.DataContext>
+        <viewModel:MainViewModel/>
+    </Window.DataContext>
+
+    <Grid>
+        <Menu VerticalAlignment="Top">
+            <MenuItem Header="{Binding MemoryUsage, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center" Margin="10,0" x:Name="MemoryUsageText"/>
+            <MenuItem Header="{Binding ExecutionTime, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,10,0" x:Name="CalculationTimeText"/>
+        </Menu>
+        <!-- Контейнер для вкладок -->
+        <TabControl Margin="10,69,10,50">
+            <!-- Вкладка ввода компонентов и реакций -->
+            <TabItem Header="Компоненты и реакции">
+                <md:Card Padding="16" Margin="10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="5*" /> 
+                            <ColumnDefinition Width="2*" /> 
+                        </Grid.ColumnDefinitions>
+                        
+                        <ScrollViewer Grid.Column="0" VerticalScrollBarVisibility="Auto" Margin="10">
+                            <StackPanel>
+                                <!-- Ввод реакций -->
+                                <TextBlock Text="Реакции" Margin="10"/>
+                                <StackPanel x:Name="ReactionsPanel">
+                                    <ItemsControl ItemsSource="{Binding Reactions}">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <StackPanel Orientation="Horizontal" Margin="5">
+                                                    <TextBlock Text="{Binding Number}" Width="30" VerticalAlignment="Center"/>
+                                                    <TextBox Text="{Binding Formula, UpdateSourceTrigger=LostFocus,ValidatesOnDataErrors=True, NotifyOnValidationError=True}"
+                                                             Width="150" 
+                                                             Margin="5"
+                                                             />
+                                                    <TextBox Text="{Binding ActivationEnergy, UpdateSourceTrigger=LostFocus, ValidatesOnDataErrors=True, NotifyOnValidationError=True}" 
+                                                             Width="70" 
+                                                             Margin="5"
+                                                             ToolTip="Энергия активации"/>
+                                                    <TextBlock Text="Дж/моль" Width="Auto" VerticalAlignment="Center"/>
+                                                    <TextBox Text="{Binding PreExponentialFactor, UpdateSourceTrigger=LostFocus, ValidatesOnDataErrors=True, NotifyOnValidationError=True}" 
+                                                             Width="Auto" 
+                                                             Margin="5"
+                                                             ToolTip="Предэкспоненциальный множитель (*1.0E+11)"/>
+                                                    <TextBlock Text="л/(моль*мин)" Width="Auto" VerticalAlignment="Center"/>
+                                                </StackPanel>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+
+                                </StackPanel>
+
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="5">
+                                    <Button Content="+" Width="74" Margin="5" Padding="5" Command="{Binding AddReactionCommand}" />
+                                    <Button Content="-" Width="74" Margin="5" Padding="5" Command="{Binding RemoveReactionCommand}"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </ScrollViewer>
+                        
+                        <ScrollViewer Grid.Column="1" VerticalScrollBarVisibility="Auto" Margin="10">
+                            <StackPanel>
+                                <!-- Ввод начальной концентрации -->
+                                <StackPanel Orientation="Vertical" Margin="10">
+                                    <TextBlock Text="Компоненты" FontWeight="Bold" />
+                                    <ItemsControl ItemsSource="{Binding Components}">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <StackPanel Orientation="Horizontal" Margin="5">
+                                                    <TextBlock Text="{Binding Name}" Width="30" VerticalAlignment="Center" />
+                                                    <TextBox Text="{Binding InitialConcentration, UpdateSourceTrigger=LostFocus}" Width="50" Margin="5" />
+                                                    <TextBlock Text="моль/л" Width="50" VerticalAlignment="Center"/>
+                                                </StackPanel>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="5">
+                                        <Button Content="+"  Command="{Binding AddComponentCommand}" Width="74" Margin="5" Padding="5" />
+                                        <Button Content="-" Command="{Binding RemoveComponentCommand}" Width="74" Margin="5" Padding="5" />
+                                    </StackPanel>
+                                </StackPanel>
+                            </StackPanel>
+                        </ScrollViewer>
+                    </Grid>
+                </md:Card>
+            </TabItem>
+
+            <!-- Вкладка ввода параметров -->
+            <TabItem Header="Параметры реактора">
+                <md:Card Padding="16" Margin="10">
+                    <StackPanel>
+                        <!-- Ввод параметров реактора -->
+                        <StackPanel>
+                            <Label Content="Производительность, (л/мин)" Margin="5" />
+                            <TextBox Width="150" Margin="5" Text="{Binding ReactorParameters.FlowRate, UpdateSourceTrigger=LostFocus, ValidatesOnDataErrors=True, NotifyOnValidationError=True}" />
+                            <Label Content="Температура смеси в реакторе (°C)" Margin="5"/>
+                            <TextBox Width="150" Margin="5" Text="{Binding ReactorParameters.Temperature, UpdateSourceTrigger=LostFocus, ValidatesOnDataErrors=True, NotifyOnValidationError=True}" />
+                            <Label Content="Интервал времени анализа, (мин)" Margin="5"/>
+                            <TextBox Width="150" Margin="5" Text="{Binding ReactorParameters.TotalTimeMinutes, UpdateSourceTrigger=LostFocus, ValidatesOnDataErrors=True, NotifyOnValidationError=True}" />
+                            <Label Content="Шаг по времени, (мин)" Margin="5"/>
+                            <TextBox Width="150" Margin="5" Text="{Binding ReactorParameters.StepMinutes, UpdateSourceTrigger=LostFocus, ValidatesOnDataErrors=True, NotifyOnValidationError=True}" />
+                        </StackPanel>
+                    </StackPanel>
+                </md:Card>
+            </TabItem>
+
+            <!-- Вкладка для графика -->
+            <TabItem Header="График">
+                <md:Card Padding="16" Margin="10">
+                    <StackPanel>
+                        <wpf:CartesianChart
+                            x:Name="ReactionChart"
+                            Series="{Binding Series}" 
+                            XAxes="{Binding XAxes}" 
+                            YAxes="{Binding YAxes}" 
+                            LegendPosition="Top" 
+                            TooltipPosition="Right"
+                            Height="400"
+                            />
+                    </StackPanel>
+                </md:Card>
+            </TabItem>
+        </TabControl>
+
+        <!-- Нижняя панель с кнопками -->
+        <Grid VerticalAlignment="Bottom" Height="50">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Center">
+                <Button Content="Рассчитать реакции" HorizontalAlignment="Left" Margin="5" Width="200" Command="{Binding CalculateCommand}" Click="OnCalculateBtnClick" />
+                <Button Content="Экспорт в Excel" HorizontalAlignment="Right" Margin="5" Width="200" Command="{Binding ExportToExcelCommand}" />
+                <Button Content="Таблица данных" HorizontalAlignment="Right" Margin="5" Width="200" Command="{Binding ShowTableCommand}" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

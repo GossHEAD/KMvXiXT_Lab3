@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|c:\\users\\bagda\\source\\repos\\kmvxixt_lab3\\kmvxixt_lab3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|solutionrelative:kmvxixt_lab3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|c:\\users\\bagda\\source\\repos\\kmvxixt_lab3\\kmvxixt_lab3\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|solutionrelative:kmvxixt_lab3\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|c:\\users\\bagda\\source\\repos\\kmvxixt_lab3\\kmvxixt_lab3\\mvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|solutionrelative:kmvxixt_lab3\\mvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|c:\\users\\bagda\\source\\repos\\kmvxixt_lab3\\kmvxixt_lab3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|solutionrelative:kmvxixt_lab3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|c:\\users\\bagda\\source\\repos\\kmvxixt_lab3\\kmvxixt_lab3\\mvvm\\core\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|solutionrelative:kmvxixt_lab3\\mvvm\\core\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|c:\\users\\bagda\\source\\repos\\kmvxixt_lab3\\kmvxixt_lab3\\mvvm\\services\\filedialogservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|solutionrelative:kmvxixt_lab3\\mvvm\\services\\filedialogservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|c:\\users\\bagda\\source\\repos\\kmvxixt_lab3\\kmvxixt_lab3\\mvvm\\model\\reaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|solutionrelative:kmvxixt_lab3\\mvvm\\model\\reaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|c:\\users\\bagda\\source\\repos\\kmvxixt_lab3\\kmvxixt_lab3\\mvvm\\services\\fileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|solutionrelative:kmvxixt_lab3\\mvvm\\services\\fileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|c:\\users\\bagda\\source\\repos\\kmvxixt_lab3\\kmvxixt_lab3\\mvvm\\utils\\mathutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|solutionrelative:kmvxixt_lab3\\mvvm\\utils\\mathutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|c:\\users\\bagda\\source\\repos\\kmvxixt_lab3\\kmvxixt_lab3\\mvvm\\services\\interfaces\\ifiledialogservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|solutionrelative:kmvxixt_lab3\\mvvm\\services\\interfaces\\ifiledialogservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|c:\\users\\bagda\\source\\repos\\kmvxixt_lab3\\kmvxixt_lab3\\mvvm\\services\\interfaces\\ifileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|solutionrelative:kmvxixt_lab3\\mvvm\\services\\interfaces\\ifileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|c:\\users\\bagda\\source\\repos\\kmvxixt_lab3\\kmvxixt_lab3\\kmvxixt_lab3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|solutionrelative:kmvxixt_lab3\\kmvxixt_lab3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|c:\\users\\bagda\\source\\repos\\kmvxixt_lab3\\kmvxixt_lab3\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7DCF91B-FF94-4650-8515-298E3801151A}|KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj|solutionrelative:kmvxixt_lab3\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\MVVM\\Core\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "KMvXiXT_Lab3\\MVVM\\Core\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\MVVM\\Core\\RelayCommand.cs",
+              "RelativeToolTip": "KMvXiXT_Lab3\\MVVM\\Core\\RelayCommand.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T22:01:52.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "KMvXiXT_Lab3\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\MainWindow.xaml.cs",
+              "RelativeToolTip": "KMvXiXT_Lab3\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T21:48:11.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Reaction.cs",
+              "DocumentMoniker": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\MVVM\\Model\\Reaction.cs",
+              "RelativeDocumentMoniker": "KMvXiXT_Lab3\\MVVM\\Model\\Reaction.cs",
+              "ToolTip": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\MVVM\\Model\\Reaction.cs",
+              "RelativeToolTip": "KMvXiXT_Lab3\\MVVM\\Model\\Reaction.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA0wEoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T21:41:26.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\MVVM\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "KMvXiXT_Lab3\\MVVM\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\MVVM\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "KMvXiXT_Lab3\\MVVM\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAUwN8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T19:23:36.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "KMvXiXT_Lab3\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\MainWindow.xaml",
+              "RelativeToolTip": "KMvXiXT_Lab3\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-14T16:04:43.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\App.xaml",
+              "RelativeDocumentMoniker": "KMvXiXT_Lab3\\App.xaml",
+              "ToolTip": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\App.xaml",
+              "RelativeToolTip": "KMvXiXT_Lab3\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-14T16:06:24.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FileDialogServices.cs",
+              "DocumentMoniker": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\MVVM\\Services\\FileDialogServices.cs",
+              "RelativeDocumentMoniker": "KMvXiXT_Lab3\\MVVM\\Services\\FileDialogServices.cs",
+              "ToolTip": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\MVVM\\Services\\FileDialogServices.cs",
+              "RelativeToolTip": "KMvXiXT_Lab3\\MVVM\\Services\\FileDialogServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T20:02:13.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MathUtils.cs",
+              "DocumentMoniker": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\MVVM\\Utils\\MathUtils.cs",
+              "RelativeDocumentMoniker": "KMvXiXT_Lab3\\MVVM\\Utils\\MathUtils.cs",
+              "ToolTip": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\MVVM\\Utils\\MathUtils.cs",
+              "RelativeToolTip": "KMvXiXT_Lab3\\MVVM\\Utils\\MathUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T22:00:56.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FileServices.cs",
+              "DocumentMoniker": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\MVVM\\Services\\FileServices.cs",
+              "RelativeDocumentMoniker": "KMvXiXT_Lab3\\MVVM\\Services\\FileServices.cs",
+              "ToolTip": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\MVVM\\Services\\FileServices.cs",
+              "RelativeToolTip": "KMvXiXT_Lab3\\MVVM\\Services\\FileServices.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T20:02:01.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IFileServices.cs",
+              "DocumentMoniker": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\MVVM\\Services\\Interfaces\\IFileServices.cs",
+              "RelativeDocumentMoniker": "KMvXiXT_Lab3\\MVVM\\Services\\Interfaces\\IFileServices.cs",
+              "ToolTip": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\MVVM\\Services\\Interfaces\\IFileServices.cs",
+              "RelativeToolTip": "KMvXiXT_Lab3\\MVVM\\Services\\Interfaces\\IFileServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T20:02:48.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IFileDialogServices.cs",
+              "DocumentMoniker": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\MVVM\\Services\\Interfaces\\IFileDialogServices.cs",
+              "RelativeDocumentMoniker": "KMvXiXT_Lab3\\MVVM\\Services\\Interfaces\\IFileDialogServices.cs",
+              "ToolTip": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\MVVM\\Services\\Interfaces\\IFileDialogServices.cs",
+              "RelativeToolTip": "KMvXiXT_Lab3\\MVVM\\Services\\Interfaces\\IFileDialogServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T20:06:39.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "KMvXiXT_Lab3.csproj",
+              "DocumentMoniker": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj",
+              "RelativeDocumentMoniker": "KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj",
+              "ToolTip": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj",
+              "RelativeToolTip": "KMvXiXT_Lab3\\KMvXiXT_Lab3.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-14T19:23:54.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "KMvXiXT_Lab3\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\bagda\\source\\repos\\KMvXiXT_Lab3\\KMvXiXT_Lab3\\AssemblyInfo.cs",
+              "RelativeToolTip": "KMvXiXT_Lab3\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T16:06:40.964Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
